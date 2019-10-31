@@ -1,8 +1,8 @@
-BOT_TOKEN= "Your bot Token"
-SERVER_CHAT_NAME= "Chat for welcome messages sent from bot"
-RULES_CHAT_NAME= "Chat with the rules inside for bot to add and monitor reactions for role"
-AFTER_RULES_ROLE= "Name of the role you wanna assign a user after accepting the rules"
-RULES_MESSAGE_ID= "ID of message where you got your reaction to accept rules at"
-ROLE_ASSIGNING_MESSAGE_ID= "ID of message where users can self assign roles"
-USER_WELCOME_MESSAGE_NAME= "Name of you welcome message file for user private message in modules/messages"
-CHANNEL_WELCOME_MESSAGE_NAME= ""Name of your welcome message file for channel in modules/messages
+BOT_TOKEN= Your bot Token
+SERVER_CHAT_NAME= Chat for welcome messages sent from bot
+RULES_CHAT_NAME= Chat with the rules inside for bot to add and monitor reactions for role
+AFTER_RULES_ROLE= Name of the role you wanna assign a user after accepting the rules
+RULES_MESSAGE_ID= ID of message where you got your reaction to accept rules at
+ROLE_ASSIGNING_MESSAGE_ID= ID of message where users can self assign roles
+USER_WELCOME_MESSAGE_NAME= Name of you welcome message file for user private message in modules/messages
+CHANNEL_WELCOME_MESSAGE_NAME= Name of your welcome message file for channel in modules/messages

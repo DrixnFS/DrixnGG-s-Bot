@@ -43,9 +43,11 @@ client.on('guildMemberAdd', member => {
     const channel = member.guild.channels.find(ch => ch.name === process.env['SERVER_CHAT_NAME']);
     if (!channel) return;
     // Send message directly to the User
-    member.send(drixnBot.messages[process.env['USER_WELCOME_MESSAGE_NAME']](member, channel));
+    const rulesChannel = member.guild.channels.find(ch => ch.name === process.env['RULES_CHAT_NAME']);
+    if (!rulesChannel) return;
+    member.send(drixnBot.messages[process.env['USER_WELCOME_MESSAGE_NAME']](member.user, rulesChannel));
     // Send the message to a designated channel on a server:
-    channel.send(drixnBot.messages[process.env['CHANNEL_WELCOME_MESSAGE_NAME']](member));
+    channel.send(drixnBot.messages[process.env['CHANNEL_WELCOME_MESSAGE_NAME']](member.user));
 });
 
 client.on('raw', (event) => {
