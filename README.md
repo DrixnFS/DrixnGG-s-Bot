@@ -7,4 +7,6 @@ TO setup please Download this bot and run these commands :
     - Setup your .conf file
     - Run npm start, at this point everything should work nicely
 
+Bot can be seen on our Community discord: https://discordapp.com/invite/guVRjpv
+
 EARLY DEVELOPMENT VERSION
