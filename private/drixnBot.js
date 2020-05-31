@@ -17,7 +17,7 @@ client.on("ready", () => {
     console.log(`Bot has started, with ${client.users.size} users, in ${client.channels.size} channels of ${client.guilds.size} servers.`);
     client.user.setPresence({
         game: {
-            name: `twitch.tv/DrixnGG`,
+            name: `https://mixer.com/DrixnGG`,
             type: 'WATCHING'
         }
     });
